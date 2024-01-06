@@ -121,8 +121,8 @@ The project follows a structured directory layout for better organization:
    <img src="./ScreenShots/12.b-Reg.jpg" alt="Screenshot 1" width="300" />
    <img src="./ScreenShots/12.c-Reg.jpg" alt="Screenshot 1" width="300" />
    <img src="./ScreenShots/13-Contact.jpg" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/14-About.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/15-Login.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/14-About.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/15-Login.jpg" alt="Screenshot 1" width="300" />
    <img src="./ScreenShots/16.a-PreLogin.jpg" alt="Screenshot 1" width="300" />
    <img src="./ScreenShots/16.b-PostLogin.jpg" alt="Screenshot 1" width="300" />
    <img src="./ScreenShots/17-Ipo.jpg" alt="Screenshot 1" width="300" />
