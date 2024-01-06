@@ -3,8 +3,7 @@ import { View, Text, ScrollView, ImageBackground, TouchableOpacity } from 'react
 import { useAuth } from './AuthContext';
 
 const Home = ({ theme, navigation }) => {
-
-  const { isAuthenticated, logout } = useAuth(); 
+  const { isAuthenticated, logout } = useAuth();
 
   const keyFeatures = [
     'Explore different stock categories and sectors',
@@ -18,31 +17,29 @@ const Home = ({ theme, navigation }) => {
       textColor: '#000000',
       headerColor: '#1890ff',
       // backgroundImage: require('../assets/ipo34.png'),
-    }
+    },
   };
 
   const selectedStyles = styles[theme] || styles.light;
 
   const handleExploreNow = () => {
     if (isAuthenticated) {
-      navigation.navigate('IPO Calendar'); 
+      navigation.navigate('IPO Calendar');
     } else {
-      navigation.navigate('Login'); 
+      navigation.navigate('Login');
     }
   };
 
   return (
     <ImageBackground source={selectedStyles.backgroundImage} style={{ flex: 1, resizeMode: 'cover' }}>
       <View style={{ backgroundColor: selectedStyles.headerColor, paddingVertical: 20, alignItems: 'center' }}>
-        <Text style={{ color: 'white', textAlign: 'center', fontSize: 24 }}>
-          Welcome to IPO Tracker & Currency Pulse
-        </Text>
+        <Text style={{ color: 'white', textAlign: 'center', fontSize: 24 }}>Welcome to IPO Tracker & Currency Pulse</Text>
       </View>
       <View style={{ paddingHorizontal: 20, paddingTop: 20, alignItems: 'center' }}>
         <Text style={{ color: 'blue', fontWeight: 'bold', fontSize: 18 }}>
           IPO Tracker & Currency Pulse is an all-in-one platform providing real-time stock market data and comprehensive tools for analysis.
         </Text>
-        <Text style={{ color: selectedStyles.textColor, fontSize: 18, fontWeight: 'bold' }}>Key Features:</Text>
+        <Text style={{ color: selectedStyles.textColor, fontSize: 18, fontWeight: 'bold', marginTop: 10 }}>Key Features:</Text>
         <View style={{ marginTop: 10, borderWidth: 1, borderColor: selectedStyles.headerColor, borderRadius: 5 }}>
           {keyFeatures.map((feature, index) => (
             <View key={index} style={{ flexDirection: 'row', marginBottom: 5, paddingHorizontal: 10, paddingVertical: 5 }}>

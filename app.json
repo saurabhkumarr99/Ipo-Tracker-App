@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ipo-tracker-app",
-    "slug": "ipo-tracker-app",
+    "slug": "ipo-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,6 +26,18 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1cfc2328-6da5-4057-8897-6e2ef2f8347f"
+      }
+    },
+    "owner": "saurabhkumarr99",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1cfc2328-6da5-4057-8897-6e2ef2f8347f"
     }
   }
 }
