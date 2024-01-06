@@ -70,7 +70,7 @@ Follow these steps to run the IPO Tracker App locally:
 
  - `Start Project`
    ```bash
-      npm start
+   npx expo start
    ``` 
 
 
