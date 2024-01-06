@@ -14,7 +14,7 @@ Welcome to the IPO Tracker & Currency Pulse Dashboard!. This application serves 
 
 - Live: [IPO Tracker & Currency Pulse Dashboard -Web Version (React)](https://saurabhkumarr99.github.io/Host-IpoTracker-Web/)
 
-- Live Expo Go Link: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)] (exp://u.expo.dev/update/12b2b67f-f49c-4b62-bd0e-ad5407f22dd1)
+- Live Expo Go Link: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)] (exp://u.expo.dev/update/22038225-60c1-4831-bf19-af2275460e99)
 
 - Live Expo Go QR code: Scan the following QR code with an Android device to open it in Expo Go.
 
