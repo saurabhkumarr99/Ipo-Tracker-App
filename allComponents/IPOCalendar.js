@@ -12,7 +12,12 @@ const IPOCalendar = () => {
     const fetchIPOData = async () => {
       try {
         const response = await axios.get(apiUrl);
-        setIPOData(response.data);
+       //Since price is null in api , setting a random price
+       const modifiedData = response.data.map((ipo) => ({
+        ...ipo,
+        price: Math.floor(Math.random() * 1000) + 1000, 
+      }));
+      setIPOData(modifiedData);
       } catch (error) {
         console.error('Error fetching IPO data:', error);
       }

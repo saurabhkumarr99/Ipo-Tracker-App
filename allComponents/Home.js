@@ -6,10 +6,10 @@ const Home = ({ theme, navigation }) => {
   const { isAuthenticated, logout } = useAuth();
 
   const keyFeatures = [
-    'Explore different stock categories and sectors',
-    'Create a personalized dashboard tailored to your preferences',
-    'Experience real-time data visualization with interactive charts',
-    'Customizable settings for a tailored experience',
+    'Display upcoming IPOs using an external API endpoint',
+    'Show the latest currency rates via an external API endpoint',
+    'Implement periodic data refresh or user-triggered updates',
+    'Leverage mobile features for an enhanced user experience on the app',
   ];
 
   const styles = {
